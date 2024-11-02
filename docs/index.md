@@ -1,17 +1,5 @@
-# Welcome to MkDocs
+# Welcome to TechGeek01's documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+I've worked with a lot of things. Sometimes, those things are confusing. This is an attempt at documenting all of the things in a central place.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+These things should either be up to date as things change, or will be updated *Soon™*.

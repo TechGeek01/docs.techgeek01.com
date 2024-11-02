@@ -1,2 +1,62 @@
 site_name: TechGeek01's Documentation
 repo_url: https://github.com/TechGeek01/docs.techgeek01.com
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.extra
+  - pymdownx.highlight:
+      guess_lang: true
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: ""
+#      toc_depth: 5
+
+nav:
+  - Welcome:
+    - index.md
+  - Hardware:
+    - hardware/car-thing.md
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      primary: deep orange
+      accent: lime
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: deep orange
+      accent: green
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    code: "Fira Code"
