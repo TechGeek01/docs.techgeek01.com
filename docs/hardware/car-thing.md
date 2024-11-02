@@ -16,7 +16,7 @@
 1. Extract Superbird to anywhere you like. I'll assume you've called it `superbird`
 2. Extract your Thing Labs firmware to a folder inside of `superbird`. I'll assume you've called this `thinglabs`. This folder should have all the data files directly inside of it
 
-# Install drivers wit Zadig
+# Install drivers with Zadig
 Hold down buttons 1 and 4, and plug in the Car Thing
 
 !!! note
