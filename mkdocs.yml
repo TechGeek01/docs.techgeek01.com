@@ -33,6 +33,9 @@ nav:
   - Hardware:
     - hardware/car-thing.md
 
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
   features:
@@ -45,15 +48,15 @@ theme:
   language: en
   palette:
     - media: "(prefers-color-scheme: dark)"
-      primary: deep orange
-      accent: lime
+      primary: custom
+      accent: custom
       scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
-      primary: deep orange
-      accent: green
+      primary: custom
+      accent: custom
       scheme: default
       toggle:
         icon: material/weather-night
