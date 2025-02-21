@@ -30,6 +30,8 @@ markdown_extensions:
 nav:
   - Welcome:
     - index.md
+  - Git:
+    - git/branch-maintenance.md
   - Hardware:
     - hardware/car-thing.md
 
