@@ -21,3 +21,24 @@ git push -d origin <branchname>
 # or, similarly, 'git push origin :<branchname>'
 
 ```
+
+# Renaming a branch
+To rename a branch properly, including changing references to it on both local and remote repositories:
+```
+# Checkout the branch to be renamed
+# git checkout demo
+git checkout <oldbranchname>
+
+# Rename branch
+# git branch -m test
+git branch -m <newbranchname>
+
+# Delete the old branch on remote repo
+# git push origin --delete demo
+git push <remoterepo> --delete <oldbranchname>
+
+# Push the branch with the correct name, and reset the upstream branch
+# git push origin -u test
+git push <remoterepo> -u <newbranchname>
+
+```
