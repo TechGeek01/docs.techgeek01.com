@@ -38,6 +38,10 @@ nav:
     - git/branch-maintenance.md
   - Hardware:
     - hardware/car-thing.md
+  - Kubernetes:
+    - kubernetes/k3s-cluster-with-keepalived.md
+    - kubernetes/installing-authentik-on-k3s.md
+    - kubernetes/converting-docker-to-k3s-with-docker-rumtime.md
 
 extra_css:
   - stylesheets/extra.css
