@@ -22,6 +22,24 @@ git push -d origin <branchname>
 
 ```
 
+# Rebasing a branch
+As a better alternative than merging a branch onto an existing branch, rebasing can be done.
+
+This is opposite to merging, instead of merging a feature branch onto the end of the main branch (updating the main branch), you rebase the feature branch onto the main branch:
+```
+# Checkout the main branch
+git checkout <main-branch>
+
+# Pull any changes
+git pull origin <main-branch>
+
+# Rebase the feature branch onto the main branch
+git rebase <main-branch> <feature-branch>
+# Equivalent to
+# git checkout <feature-branch>
+# git rebase <main-branch>
+```
+
 # Renaming a branch
 To rename a branch properly, including changing references to it on both local and remote repositories:
 ```
